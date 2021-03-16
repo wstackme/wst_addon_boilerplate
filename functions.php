@@ -50,7 +50,7 @@ if(!class_exists('AddonFunction'))
         /**
          * isRhymix
          * 
-         * 현재 CMS의 Rhymix 여부를 반환합니다.
+         * 현재 코어의 Rhymix 여부를 반환합니다.
          * 
          * @return bool
          */
@@ -62,7 +62,7 @@ if(!class_exists('AddonFunction'))
         /**
          * isXE
          * 
-         * 현재 CMS의 XE 여부를 반환합니다.
+         * 현재 코어의 XE 여부를 반환합니다.
          * 
          * @return bool
          */
@@ -619,7 +619,7 @@ if(!class_exists('AddonFunction'))
          * 
          * location.href 값을 설정하는 스크립트를 출력합니다.
          * 
-         * @param string    $url
+         * @param string    $url	이동할 URL
          */
         public static function setJSLocation($url)
         {
@@ -635,7 +635,7 @@ if(!class_exists('AddonFunction'))
          * 
          * location.replace 를 실행하는 스크립트를 출력합니다.
          * 
-         * @param string    $url
+         * @param string    $url	이동할 URL
          */
         public static function replaceJSLocation($url)
         {
@@ -652,7 +652,7 @@ if(!class_exists('AddonFunction'))
          * 변수 묶음을 JS 로 전달합니다.
          * JS 파일에서 window.wst_addon_name 형식으로 접근할 수 있습니다.
          * 
-         * @param array $variable
+         * @param (object|array) $variable	JS로 전달할 변수 묶음
          */
         public static function setJSVariable($variable)
         {
@@ -666,7 +666,7 @@ if(!class_exists('AddonFunction'))
          * 
          * JSON 형식으로 응답을 발송합니다.
          * 
-         * @param (object|array) $json_body
+         * @param (object|array) $json_body	응답할 객체
          */
         public static function responseJSON($json_body)
         {
