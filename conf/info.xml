@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon version="0.2">
+    <title xml:lang="ko">애드온 보일러플레이트</title>
+    <description xml:lang="ko">애드온 보일러플레이트</description>
+    <version>1.0.0</version>
+    <date>2021-03-17</date>
+    <author email_address="admin@webstack.me" link="https://webstack.me/">
+        <name xml:lang="ko">웹스택</name>
+    </author>
+    <extra_vars>
+    </extra_vars>
+</addon>
